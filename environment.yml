@@ -19,20 +19,21 @@
 name: lipack
 
 dependencies:
-  - numpy
+  - python=3.11
+  - numpy<2.0,>=1.26.4
   - scipy
   - matplotlib
-  - pandas
+  - pandas<2.0
   - ipython
   - jupyter
   - sympy
   - pip
   - pip:
-    - pybamm==23.9
-    - ipdb
-    - ruff
-    - mkdocstrings-python-legacy
-    - mkdocs-material
-    - mkdocs-jupyter
-    - nbconvert
-    - -e .
+#    - pybamm==23.9
+#    - ipdb
+#    - ruff
+#    - mkdocstrings-python-legacy
+#    - mkdocs-material
+#    - mkdocs-jupyter
+#    - nbconvert
+#    - -e .
